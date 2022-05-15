@@ -23,9 +23,6 @@ const Board = () => {
     <MyButton title="Home" />
   </Link>
     <div className="board">
-      {/* <div className="board-header">
-        <h1 className='board-title'>FAMILIADA</h1>
-      </div> */}
       <div className="board-content">
         {Fields.map(field => (
           <div className="field" key={field.id}>
