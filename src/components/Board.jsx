@@ -20,7 +20,7 @@ const Fields = [
 const Board = () => {
   return (
     <><Link className="link" to="/">
-    <MyButton title="Home" />
+    <MyButton title="Powrót" />
   </Link>
     <div className="board">
       <div className="board-content">

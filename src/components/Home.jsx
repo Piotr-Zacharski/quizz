@@ -9,7 +9,7 @@ const Intro = (toggle) => {
     <>
     <h1 className="intro-title">FAMILIADA</h1>
       <Link to="/board" className="link">
-        <MyButton title="GRAJ" onClick={() => toggle}/>
+        <MyButton title="Nowa gra" onClick={() => toggle}/>
       </Link>
       <Player src={sound}/>
     </>
