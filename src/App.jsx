@@ -6,6 +6,10 @@ import Board from './components/Board'
 
 function App() {
 
+  setTimeout(function(){
+    document.getElementById('my_audio').play();
+  }, 2000);
+
   return (
     <Router>
       <div className="App">
