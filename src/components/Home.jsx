@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import MyButton from './MyButton'
-import Player from './Player'
-import sound from '../../assets/sound.mp3'
+// import Player from './Player'
+// import sound from '../../assets/sound.mp3'
 
 const Intro = (toggle) => {
   return (
@@ -11,7 +11,7 @@ const Intro = (toggle) => {
       <Link to="/board" className="link">
         <MyButton title="GRAJ" onClick={() => toggle}/>
       </Link>
-      <Player src={sound}/>
+      {/* <Player src={sound}/> */}
     </>
   )
 }

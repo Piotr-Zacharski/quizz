@@ -33,7 +33,7 @@ const useAudio = url => {
   const toggle = () => setPlaying(!playing);
 
   useEffect(() => {
-      playing ? audio.play() : audio.pause();
+    playing ? audio.play() : audio.pause();
     },
     [playing]
   );
